@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +41,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-shadow: 5px 5px teal;
+}
+
+.joke {
+
+  border: 2px solid white;
+  height: 200px;
+  width: 400px;
+  margin-bottom: 15px;
+}
+button {
+  height: 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: monospace, serif;
+  box-shadow: 5px white;
+  background-color: teal;
+  color: white;
 }
