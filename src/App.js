@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
 import Joke from './components/Joke';
-import axios from 'axios';
 
 function App() {
 
@@ -9,7 +8,7 @@ function App() {
 
   const addJoke = (e) => {
     e.preventDefault();
-    fetch('https://v2.jokeapi.dev/joke/Programming')
+    fetch('/joke/Programming')
     .then(res => {
       if(res.ok === true)  {
         return res.json();
