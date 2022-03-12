@@ -23,7 +23,7 @@ function App() {
         setTimeout(()=>{setJoke(data.delivery)}, 3000);
       }
     })
-    .catch(err => {console.error(err);});
+    .catch(err => {console.error(err)});
   }
   
   return (
